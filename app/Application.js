@@ -1,7 +1,7 @@
 Ext.application({
-	name: 'Panda',
-	autoCreateViewport: true,
-	launch: function() {
-		
-	}
+    name : 'Panda',
+    
+    launch : function() {
+        Ext.Msg.alert('Panda', 'message from Panda');
+    }
 });
