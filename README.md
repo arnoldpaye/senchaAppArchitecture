@@ -4,7 +4,7 @@ Sencha App Architecture
 
 Views
 -----
-#### First
+### First
 - NewStation
 - SongControls
 - SongProgress
@@ -18,11 +18,13 @@ Views
 - Menu
 - Ad
 - ArtistDetails
-#### Second
+
+### Second
 - Header
 - SidePanel
 - SongPanel
-#### Third
+
+### Third
 - NewStation
 - SongControls
 - StationsList
