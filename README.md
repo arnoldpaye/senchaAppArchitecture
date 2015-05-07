@@ -42,3 +42,9 @@ Models
 - Song (album)
 - Song (duration)
 - Song (artistInfo)
+
+Stores
+------
+- SearchResults
+- Stations
+- RecentSongs
