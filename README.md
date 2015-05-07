@@ -31,3 +31,14 @@ Views
 - RecentlyPlayedScroller
 - Ad
 - SongInfo
+
+Models
+------
+- Song (liked)
+- Song (duration)
+- Station (name)
+- Song (albumCover)
+- Song (artist)
+- Song (album)
+- Song (duration)
+- Song (artistInfo)
