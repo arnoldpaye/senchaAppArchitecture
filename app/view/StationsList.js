@@ -6,6 +6,6 @@ Ext.define('Panda.view.StationsList', {
     hideHeaders: true,
     // columns is required [Ext.grid.Panel -> Ext.panel.Table]
     columns: [
-        { dataIndex: 'name' }
+        { dataIndex: 'name', text: 'Name', flex: 1 }
     ]
 });
