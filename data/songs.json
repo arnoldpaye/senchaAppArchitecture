@@ -15,6 +15,14 @@
             "album": "Cream: Gold", 
             "description": "Description for Cream", 
             "played_date": "2",
+            "station": 1
+        },
+        {
+            "name": "Born Under A Bad Sign", 
+            "artist": "Jimi Hendrix", 
+            "album": "Blues", 
+            "description": "Description for Jimi", 
+            "played_date": "5",
             "station": 2
         }
     ]
