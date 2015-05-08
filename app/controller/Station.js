@@ -32,6 +32,7 @@ Ext.define('Panda.controller.Station', {
     
     onStationsLoad: function() {
         var stationsList = this.getStationsList();
+        // selectionchange event from StationsList is fired
         stationsList.getSelectionModel().select(0);
     },
     
