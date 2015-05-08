@@ -6,7 +6,7 @@ Ext.define('Panda.controller.Station', {
     
     refs: [{
         // A component query
-        selector: 'viewport > #west-region > stationslist',
+        selector: 'stationslist',
         ref: 'stationsList'
     }],
     
@@ -37,6 +37,8 @@ Ext.define('Panda.controller.Station', {
     },
     
     onStationSelect: function(selModel, selection) {
+        // fire application event 'stationstart'
+        this.application.fireEvent('stationstart', selection[0]);
     },
     
     onNewStationSelect: function(selModel, selection) {
