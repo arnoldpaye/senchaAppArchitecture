@@ -3,5 +3,6 @@ Ext.application({
     name : 'Panda',
     autoCreateViewport: true,
     models: ['Station', 'Song'],
-    stores: ['Stations', 'RecentSongs', 'SearchResults']
+    stores: ['Stations', 'RecentSongs', 'SearchResults'],
+    controllers: ['Station', 'Song']
 });
