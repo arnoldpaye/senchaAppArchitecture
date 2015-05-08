@@ -42,6 +42,16 @@ Ext.define('Panda.controller.Station', {
     },
     
     onNewStationSelect: function(selModel, selection) {
-        console.log(selModel);
+        var selected = selection[0],
+        store = this.getStationsStore(),
+        list = this.getStationsList();
+
+        if (selected && !store.getById(selected.get('id'))) {
+            // If the newly selected station does not exist in our station store we add it
+            store.add(selected);
+        }
+    
+        // We select the station in the Station list
+        list.getSelectionModel().select(selected);
     }
 });

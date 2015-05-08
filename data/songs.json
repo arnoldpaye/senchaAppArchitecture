@@ -8,6 +8,14 @@
             "description":"Description for Stevie",
             "played_date": "1",
             "station": 1
+        },
+        {
+            "name": "Sunshine Of Your Love (Live)", 
+            "artist": "Cream", 
+            "album": "Cream: Gold", 
+            "description": "Description for Cream", 
+            "played_date": "2",
+            "station": 2
         }
     ]
 }
