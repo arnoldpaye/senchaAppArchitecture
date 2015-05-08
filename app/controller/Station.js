@@ -16,6 +16,6 @@ Ext.define('Panda.controller.Station', {
     },
     
     onNewStationSelect: function(selModel, selection) {
-        
+        console.log(selModel);
     }
 });
