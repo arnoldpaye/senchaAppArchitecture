@@ -48,6 +48,7 @@ Ext.define('Panda.controller.Song', {
    },
    
    onSongSelect: function(selModel, selection) {
+       // Selection[0] is a song
        this.getSongInfo().update(selection[0]);
    }
 });
